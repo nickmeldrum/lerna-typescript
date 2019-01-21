@@ -1,0 +1,20 @@
+{
+  "name": "@nick/top-level",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Nick Meldrum <nick.meldrum@fil.com>",
+  "license": "UNLICENSED",
+  "private": "true",
+  "main": "lib/top-level.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
