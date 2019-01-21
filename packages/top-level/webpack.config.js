@@ -8,6 +8,15 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: ["source-map-loader"],
+        enforce: "pre"
+      }
+    ]
+  },
   target: 'node',
   resolve: {
     symlinks: false
