@@ -17,6 +17,7 @@
     "start": "node lib/top-level.js",
     "debug": "echo 'remember to browse to http://localhost:port/json/list to get the chrome devtools url' & node --inspect lib/top-level.js",
     "tsc": "tsc",
+    "build": "../../node_modules/.bin/webpack",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
