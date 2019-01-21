@@ -16,6 +16,6 @@ Tested and works fine.
  3. `lerna run tsc` to compile both local modules (in the lib folder)
  4. `cd packages/top-level && npm run bundle` to create the webpack bundle (in the dist folder)
  5. `npm run debug-bundled` to run the webpack bundle in node with the inspector attached
- 6. in chrome browse to `http://localhost:1992/json/list` to get the chrome devtools address to debug
+ 6. in chrome browse to `http://localhost:9229/json/list` to get the chrome devtools address to debug (check the port via the output that node --inspect has just generated)
  7. open the devtools inspector at that address and inspect the code...
  8. step into the `doSomething()` method (defined in the imported local package) - it should all look like the original typescript!
